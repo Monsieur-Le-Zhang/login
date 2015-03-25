@@ -1,0 +1,29 @@
+//
+   Created by Le on 3/24/2015.
+extends layout
+
+block content
+    a(href='/login') Login
+    form(id='register', action='/register', method='post')
+        .line
+            .left
+                span Email:
+            .right
+                input(type='text', name='email', placeholder='your_email@mail.com')
+        .line
+            .left
+                span Password:
+            .right
+                input(type='password', name='password')
+        .line
+            .left
+                span Retype password:
+            .right
+                input(type='password', name='retype_password')
+        .line
+            .left
+                input(type='submit')
+            .right
+                input(type='reset')
+                input(type='checkbox', name='remember_me', checked='checked')
+                | Remember me
