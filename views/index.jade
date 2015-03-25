@@ -1,6 +1,18 @@
 extends layout
 
 block content
-    h1= title
-    p#paragraphe Welcome to #{title}
-    a#logout(href='/login') Log out
+    .line
+        .left
+            span
+                b= title
+        .right
+            a#logout(href='/login') Log out
+    .line
+        .left
+            span Title
+        .right
+            input(type='text', name='title')
+    .line
+        .left
+            span Time
+        .right

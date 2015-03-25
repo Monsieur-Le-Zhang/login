@@ -1,0 +1,16 @@
+{
+  "name": "escalade_admin",
+  "version": "0.0.0",
+  "authors": [
+    "lzhang@escaladeweb.com"
+  ],
+  "main": "/bin/www",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
